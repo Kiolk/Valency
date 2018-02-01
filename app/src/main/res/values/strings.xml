@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Valency</string>
+    <string name="VALENCY_ONE">I</string>
+    <string name="VALENCY_TWO">II</string>
+    <string name="CHECK_RESULT">Check result</string>
+    <string name="CONSTANT_VALENCY">Constant</string>
+    <string name="VARIABLE_VALENCY">Variable</string>
+    <string name="VALENCY_THREE">III</string>
+    <string name="VALENCY_FOUR">IV</string>
+    <string name="VALENCY_FIVE">V</string>
+    <string name="VALENCY_SIX">VI</string>
+    <string name="VALENCY_SEVEN">VII</string>
+    <string name="CORRECT">Correct</string>
+    <string name="WRONG">Wrong</string>
+    <string name="NEXT_ELEMENT">Next element</string>
+    <string name="BE_READY">Be ready !</string>
+</resources>

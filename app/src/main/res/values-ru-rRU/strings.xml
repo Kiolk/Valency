@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Валентность</string>
+    <string name="VALENCY_ONE">I</string>
+    <string name="VALENCY_TWO">II</string>
+    <string name="CHECK_RESULT">Проверить</string>
+    <string name="CONSTANT_VALENCY">Постоянная</string>
+    <string name="VARIABLE_VALENCY">Переменная</string>
+    <string name="VALENCY_THREE">III</string>
+    <string name="VALENCY_FOUR">IV</string>
+    <string name="VALENCY_FIVE">V</string>
+    <string name="VALENCY_SIX">VI</string>
+    <string name="VALENCY_SEVEN">VII</string>
+    <string name="CORRECT">Правильно</string>
+    <string name="WRONG">Ошибка</string>
+    <string name="NEXT_ELEMENT">Следующий элемент</string>
+    <string name="BE_READY">Будь готов !</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.github.kiolk.valency.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chemistry"
+        android:contentDescription="@string/VALENCY_ONE"
+        android:scaleType="center" />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/score_linear_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/best_score_text_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" -->
+    <!--style="@style/GeneralBlockStyle"-->
+    <!--android:text="0"/>-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        style="@style/GeneralBlockStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:text="@string/BE_READY" />
+
+    <RelativeLayout
+        android:id="@+id/element_relative_layout"
+        style="@style/ElementStyle"
+        android:layout_below="@+id/answer_text_view"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/element_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+
+            android:textSize="@dimen/ELEMENT_SIZE"
+            tools:text="Ca" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/valency_radio_group"
+        style="@style/GeneralBlockStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/element_relative_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/constant_valency_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CONSTANT_VALENCY"
+            android:textColor="@color/DEFAULT_COLOR_TEXT"
+            android:textSize="@dimen/MIDDLE_TEXT_SIZE" />
+
+        <RadioButton
+            android:id="@+id/variable_valency_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VARIABLE_VALENCY"
+            android:textColor="@color/DEFAULT_COLOR_TEXT"
+            android:textSize="@dimen/MIDDLE_TEXT_SIZE" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/GeneralBlockStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valency_radio_group"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/valency_one_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:text="@string/VALENCY_ONE" />
+
+        <CheckBox
+            android:id="@+id/valency_two_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:text="@string/VALENCY_TWO" />
+
+        <CheckBox
+            android:id="@+id/valency_three_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="3"
+            android:text="@string/VALENCY_THREE"
+            android:textColor="@color/DEFAULT_COLOR_TEXT"
+            android:textSize="@dimen/MIDDLE_TEXT_SIZE" />
+
+        <CheckBox
+            android:id="@+id/valency_four_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="4"
+            android:text="@string/VALENCY_FOUR" />
+
+        <CheckBox
+            android:id="@+id/valency_five_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="5"
+            android:text="@string/VALENCY_FIVE" />
+
+        <CheckBox
+            android:id="@+id/valency_six_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="6"
+            android:text="@string/VALENCY_SIX" />
+
+        <CheckBox
+            android:id="@+id/valency_seven_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="7"
+            android:text="@string/VALENCY_SEVEN" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/result_button"
+        android:text="@string/CHECK_RESULT" />
+</RelativeLayout>

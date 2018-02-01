@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ElementStyle">
+        <item name="android:layout_width">@dimen/ELEMENT_WIDTH</item>
+        <item name="android:layout_height">@dimen/ELEMENT_HEIGHT</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:elevation">@dimen/ELEMENT_ELEVATION</item>
+        <item name="android:layout_margin">@dimen/ELEMENT_MARGIN</item>
+        <item name="android:background">@drawable/element_square</item>
+    </style>
+
+    <style name="GeneralBlockStyle">
+        <item name="android:layout_margin">@dimen/BLOCK_MARGIN</item>
+        <item name="android:elevation">@dimen/ELEMENT_ELEVATION</item>
+        <item name="android:padding">@dimen/BLOCK_PADDING</item>
+        <item name="android:background">@drawable/block_square</item>
+    </style>
+</resources>

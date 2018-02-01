@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ELEMENT_SIZE">90sp</dimen>
+    <dimen name="ELEMENT_RADIUS">5dp</dimen>
+    <dimen name="ELEMENT_ELEVATION">11dp</dimen>
+    <dimen name="ELEMENT_WIDTH">200dp</dimen>
+    <dimen name="ELEMENT_HEIGHT">200dp</dimen>
+    <dimen name="BLOCK_MARGIN">10dp</dimen>
+    <dimen name="BLOCK_PADDING">5dp</dimen>
+    <dimen name="MIDDLE_TEXT_SIZE">16sp</dimen>
+    <dimen name="SMALL_TEXT_SIZE">12sp</dimen>
+    <dimen name="BIG_RADIUS">20dp</dimen>
+</resources>

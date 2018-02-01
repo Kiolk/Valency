@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ElementStyle">
+        <item name="android:layout_width">@dimen/ELEMENT_WIDTH</item>
+        <item name="android:layout_height">@dimen/ELEMENT_HEIGHT</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/ELEMENT_MARGIN</item>
+        <item name="android:background">@drawable/element_square</item>
+    </style>
+
+    <style name="GeneralBlockStyle">
+        <item name="android:layout_margin">@dimen/BLOCK_MARGIN</item>
+        <item name="android:padding">@dimen/BLOCK_PADDING</item>
+        <item name="android:background">@drawable/block_square</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:textColor">@color/DEFAULT_COLOR_TEXT</item>
+        <item name="android:textSize">@dimen/SMALL_TEXT_SIZE</item>
+    </style>
+
+    <dimen name="ELEMENT_PADDING">20dp</dimen>
+    <dimen name="ELEMENT_MARGIN">10dp</dimen>
+</resources>
